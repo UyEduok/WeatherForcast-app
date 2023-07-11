@@ -1,5 +1,3 @@
-import os
-
 import requests
 import os
 
@@ -16,5 +14,5 @@ def get_data(place, forcast_days):
     filtered_content = filtered_content[:nr_days]
     return filtered_content
 
-if __name__ == '__main__':
-    print(get_data(place='Uyo', forcast_days=2))
+
+
